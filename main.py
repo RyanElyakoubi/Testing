@@ -374,6 +374,9 @@ class Soldier(pygame.sprite.Sprite):
                     if self.idling_counter <= 0:
                         self.idling = False
 
+
+  
+
         # scroll
         self.rect.x += screen_scroll
 
